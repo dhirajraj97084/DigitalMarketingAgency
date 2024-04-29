@@ -5,6 +5,9 @@ import SecondHeroPage from '../../components/heropages/secondHeroPage/SecondHero
 import ServiceHeroPage from '../../components/heropages/serviceHeroPage/ServiceHeroPage'
 import AboutUsHeroPage from '../../components/heropages/aboutUsHeropage/AboutUsHeroPage'
 import ClientHeroPage from '../../components/heropages/clientHeroPage/ClientHeroPage'
+import OurWorkHome from '../../components/heropages/ourWork/OurWorkHome'
+import OurProfessionals from '../../components/heropages/ourProfessionals/OurProfessionals'
+import FaqHero from '../../components/heropages/faq/FaqHero'
 
 
 
@@ -16,6 +19,9 @@ function Home() {
       <ServiceHeroPage/>
       <AboutUsHeroPage/>
       <ClientHeroPage/>
+      <OurWorkHome/>
+      <OurProfessionals/>
+      {/* <FaqHero/> */}
     </Layout>
   )
 }

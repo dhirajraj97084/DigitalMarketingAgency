@@ -55,7 +55,7 @@ function ServiceHeroPage() {
                 <div className="cards mt-10 ">
                    <div className="sub_box grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
                     {cardList.map((item,index)=>(
-                        <div key={index} className="inner_box mt-4 py-4 m- bg-white/85 shadow-md hover:shadow-xl hover:border-b-4 border-deep-orange-400 hover:bg-gray-100  ">
+                        <div key={index} className="inner_box mt-3 md:m-4 py-4 m- bg-white/85 shadow-md hover:shadow-xl hover:border-b-4 border-deep-orange-400 hover:bg-gray-100  ">
                             <div className="img pb-4">
                                 <img className='w-32 mx-auto' src={item.image} alt="" />
                             </div>
