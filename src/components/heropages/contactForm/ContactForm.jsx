@@ -20,7 +20,7 @@ function ContactForm() {
     };
     return (
         <div className='flex bg-gray-100 pt-10 '>
-            <div className="left  p-8  hidden md:block">
+            <div className="left  p-8  hidden lg:block">
                 <img src="https://digiphlox.com/wp-content/uploads/2022/07/sgsgdfg-e1658211475738.webp-768x704.webp" alt="img" />
             </div>
             {/* contactForm */}

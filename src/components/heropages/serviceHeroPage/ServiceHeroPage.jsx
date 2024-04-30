@@ -48,8 +48,8 @@ function ServiceHeroPage() {
             <div className="box py-8 px-6 md:px-12 lg:px-28 ">
                 {/* headings */}
                 <div className="heading">
-                    <h1 className='font-bold text-deep-orange-500 text-center md:text-start pb-2'>OUR DIGITAL MARKETING EXPERTISE</h1>
-                    <h2 className='text-2xl font-bold md:text-4xl text-black text-center md:text-start'>Our Marketing services <br /> is what you need</h2>
+                    <h1 className='font-bold text-deep-orange-500 text-center lg:text-start pb-2'>OUR DIGITAL MARKETING EXPERTISE</h1>
+                    <h2 className='text-2xl font-bold md:text-4xl text-black text-center lg:text-start'>Our Marketing services <br /> is what you need</h2>
                 </div>
                 {/* cards */}
                 <div className="cards mt-10 ">
