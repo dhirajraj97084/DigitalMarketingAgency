@@ -8,6 +8,8 @@ import ClientHeroPage from '../../components/heropages/clientHeroPage/ClientHero
 import OurWorkHome from '../../components/heropages/ourWork/OurWorkHome'
 import OurProfessionals from '../../components/heropages/ourProfessionals/OurProfessionals'
 import FaqHero from '../../components/heropages/faq/FaqHero'
+import ContactForm from '../../components/heropages/contactForm/ContactForm'
+import GoogleRating from '../../components/heropages/googleRating/GoogleRating'
 
 
 
@@ -21,7 +23,9 @@ function Home() {
       <ClientHeroPage/>
       <OurWorkHome/>
       <OurProfessionals/>
-      {/* <FaqHero/> */}
+      <FaqHero/>
+      <ContactForm/>
+      <GoogleRating/>
     </Layout>
   )
 }
