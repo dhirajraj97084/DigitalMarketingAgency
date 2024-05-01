@@ -113,7 +113,7 @@ function CareerPage() {
     return (
         <Layout>
             <div className="img">
-                <img className='w-full md:h-[30em] h-[20em]' src="https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" />
+                <img className='w-full md:h-[30em] opacity-50 h-[20em]' src="https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" />
             </div>
             <div className="container mx-auto">
                 <h1 className='text-2xl md:text-3xl lg:text-4xl text-deep-orange-600 font-bold py-3'>Join our Team</h1>
@@ -177,6 +177,7 @@ function CareerPage() {
                                             </form>
                                         </div>
                                     </div>
+                                    {/* hello */}
                                 </div>
                             ))}
                         </div>

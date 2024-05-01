@@ -163,14 +163,14 @@ function NavList() {
       </Typography>
       {/* <portfolio />  */}
 
-      <hr className="lg:hidden" />
+      
       <Typography
         as="a"
         href="#"
         color="blue-gray"
         className="font-medium"
       >
-        <Link to={'/contact'}>
+        <Link to={'/contactus'}>
           <ListItem className="flex items-center gap-2 hover:text-deep-orange-500 py-2 pr-4 hover:underline decoration-deep-orange-500    underline-offset-8">
             Contact Us
           </ListItem>
@@ -206,7 +206,7 @@ function NavList() {
       </Typography>
       <div className="">
       <Link to={'/career'}>
-        <button className="px-6 py-2 bg-deep-orange-500 text-white hover:bg-brown-800">CALL NOW</button>
+        <button className="px-6 py-2 bg-deep-orange-500 hidden lg:block text-white hover:bg-brown-800">CALL NOW</button>
       </Link>
      </div>
     </List>
