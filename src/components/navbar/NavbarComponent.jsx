@@ -30,7 +30,7 @@ const navListMenuItems = [
   },
   {
     title: "Social media marketing",
-    src: "/social",
+    src: "/socialmedia",
   },
   {
     title: "Search Engine Optimisation",
@@ -38,27 +38,27 @@ const navListMenuItems = [
   },
   {
     title: "Pay Per Click",    
-    src: "/payper",
+    src: "/payperclick",
   },
   {
     title: "Google My Bussiness Listing",   
-    src: "/google",
+    src: "/googlemybussiness",
   },
   {
     title: "Content Writing",
-    src: "/content",
+    src: "/contentwriting",
   },
   {
     title: "Influencer Marketing",    
-    src: "/influencer",
+    src: "/influencermarketing",
   },
   {
     title: "WhatsApp Marketing",   
-    src: "/whatsapp",
+    src: "/whatsappmarketing",
   },
   {
     title: "Graphic Design",   
-    src: "/graphic",
+    src: "/graphicdesign",
   },
 
 ];

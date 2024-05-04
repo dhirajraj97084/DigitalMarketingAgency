@@ -7,6 +7,16 @@ import CareerPage from './pages/careerPage/CareerPage'
 import SubBlogPage from './pages/blogPage/subBlogPage/SubBlogPage'
 import ContactUsPage from './pages/contactUsPage/ContactUsPage'
 import AboutPage from './pages/aboutPage/AboutPage'
+// sevices
+import WebsiteDesign from './pages/services/websiteDesign/WebsiteDesign'
+import SocialMedia from './pages/services/socialMedia/SocialMedia'
+import Seo from './pages/services/seo/Seo'
+import PayPerClick from './pages/services/payperclick/PayPerClick'
+import GoogleMyBussiness from './pages/services/googleMyBussiness/GoogleMyBussiness'
+import ContentWriting from './pages/services/contentWriting/ContentWriting'
+import InfluencerMarketing from './pages/services/influencerMarketing/InfluencerMarketing'
+import WhatsAppMarketing from './pages/services/whatsappMarketing/WhatsAppMarketing'
+import GraphicDesign from './pages/services/graphicDesign/GraphicDesign'
 
 function App() {
   return (
@@ -19,6 +29,15 @@ function App() {
           <Route path='/blog' element={<SubBlogPage/>} />
           <Route path='/contactus' element={<ContactUsPage/>} />
           <Route path='/about' element={<AboutPage/>} />
+          <Route path='/websitedesign' element={<WebsiteDesign/>} />
+          <Route path='/socialmedia' element={<SocialMedia/>} />
+          <Route path='/seo' element={<Seo/>} /> 
+          <Route path='/payperclick' element={<PayPerClick/>} />  
+          <Route path='/googlemybussiness' element={<GoogleMyBussiness/>} />   
+          <Route path='/contentwriting' element={<ContentWriting/>} /> 
+          <Route path='/influencermarketing' element={<InfluencerMarketing/>} /> 
+          <Route path='/whatsappmarketing' element={<WhatsAppMarketing/>} />  
+          <Route path='/graphicdesign' element={<GraphicDesign/>} />  
           <Route path='/*' element={<NoPage/>} />
         </Routes>
       </Router>
