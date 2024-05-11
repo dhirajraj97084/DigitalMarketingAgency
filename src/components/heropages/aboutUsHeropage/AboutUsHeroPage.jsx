@@ -14,7 +14,7 @@ function AboutUsHeroPage() {
                         <p className='pb-4 text-balance text-start'>Our team of passionate digital marketers has worked for companies in a variety of industries and has the required experience to build digital solutions for every market niche.</p>
                         <p className='pb-4 text-balance text-start'>As a best digital marketing agency in Haldwani, we are well-known for providing brands and businesses with the right digital marketing solutions, thereby helping them in achieving their digital goals.</p>
                         <div className="button py-4">
-                        <Link>
+                        <Link to={'/about'}>
                             <button className='px-7 py-2 border-b-2 border border-deep-orange-400 font-semibold hover:bg-deep-orange-400 hover:text-white rounded-md'>About Us</button>
                         </Link>
                         </div>

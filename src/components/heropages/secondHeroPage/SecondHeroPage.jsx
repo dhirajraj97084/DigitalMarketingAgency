@@ -10,7 +10,7 @@ function SecondHeroPage() {
             <h2 className='text-2xl md:text-3xl lg:text-4xl text-deep-orange-600 font-bold text-center py-4 lg:text-start'>करो अपना बिज़नेस ऑनलाइन</h2>
             <h3 className='pb-6 text-balance italic text-center lg:text-start'>Welcome to DigiPhlox the best digital marketing agency in Haldwani providing 360 degree digital marketing services such as Social Media Marketing, SEO, Content Writing, Paid Advertising, and Website Development.</h3>
             <div className="buttom flex gap-4 justify-center lg:justify-start">
-             <Link to={'/contact'}><button className='px-6 py-2 bg-deep-orange-600 text-white rounded-md hover:bg-gray-700'>CONTACT</button></Link>   
+             <Link to={'/contactus'}><button className='px-6 py-2 bg-deep-orange-600 text-white rounded-md hover:bg-gray-700'>CONTACT</button></Link>   
              <Link to={'/services'}><button className='px-6 py-2 border border-deep-orange-600 text-black hover:text-white rounded-md hover:bg-deep-orange-700'>SERVICES</button></Link>
             </div>
         </div>
