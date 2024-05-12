@@ -152,7 +152,7 @@ function PayPerClick() {
               </ul>
             </div>
             <div className="left px-3 my-auto">
-            <iframe className=' lg:h-[20em] lg:w-[36em] w-full ' src="https://www.youtube.com/embed/Ggu56qOG10A" title="Online Advertising Services in Haldwani | Facebook Ads, Instagram, YouTube , Snapchat Ads" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>              
+            <iframe className='h-[20em] lg:w-[36em] w-full ' src="https://www.youtube.com/embed/Ggu56qOG10A" title="Online Advertising Services in Haldwani | Facebook Ads, Instagram, YouTube , Snapchat Ads" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>              
             </div>
           </div>
         </div>
