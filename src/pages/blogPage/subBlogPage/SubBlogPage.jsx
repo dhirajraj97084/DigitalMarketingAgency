@@ -97,7 +97,7 @@ function SubBlogPage() {
                 <img className='w-full md:h-[35em] opacity-50 h-[20em]' src="https://digiphlox.com/wp-content/uploads/2024/02/BEST-ECommerce-Marketing-Agency.png" alt="" />
             </div>
             <div className="container mx-auto bg-gray-100  ">
-                <div className="items">
+                <div className="items relative lg:bottom-32 bottom-12">
                     <div className="subitems grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
                         {blogCard.map((item, index) => (
                             <div key={index} className="inner_box m-2 p-2 md:m-4 bg-white shadow-md">
