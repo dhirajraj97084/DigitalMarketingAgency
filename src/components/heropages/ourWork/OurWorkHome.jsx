@@ -35,7 +35,7 @@ function OurWorkHome() {
                 </div>
             </div>
             <div className="img">
-                <img className='w-full' src="https://digiphlox.com/wp-content/uploads/2024/04/Website-Banner-2.jpg" alt="" />
+                <img className='w-full' src="img/5_11zon.jpg" alt="" />
             </div>
         </div>
     )

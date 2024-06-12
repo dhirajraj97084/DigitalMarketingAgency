@@ -21,7 +21,7 @@ function AboutUsHeroPage() {
                     </div>
                 </div>
                 <div className="right my-auto">
-                    <img src="https://digiphlox.com/wp-content/uploads/2022/12/marketing-image-1536x1233.webp" alt="" />
+                    <img className='h-full' src="img/hand_11zon.jpg" alt="" />
                 </div>
             </div>
         </div>

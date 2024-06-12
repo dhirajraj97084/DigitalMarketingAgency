@@ -9,7 +9,7 @@ function FaqHero() {
         <Faq/>
         </div>
         <div className="right">
-          <img src="https://digiphlox.com/wp-content/uploads/2023/11/Layer-011-1874x2048.png" alt="" />
+          <img src="img/faq_11zon.jpg" alt="" />
         </div>
       </div>
     </div>
