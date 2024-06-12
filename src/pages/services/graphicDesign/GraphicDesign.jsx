@@ -134,7 +134,7 @@ function GraphicDesign() {
          <div className="video">
           <h1 className=' px-3 flex justify-center my-4 font-black text-2xl'>You Name It, We've Designed It</h1>
           <p className=' px-3 text-center'>Digiphlox is a premium graphic design agency in Uttarakhand. We have a team of experienced creative designers who are experts at creating all kinds of designs to help your business succeed.</p>
-          <div className="box grid grid-cols-1 lg:grid-cols-2 gap-6 my-12 lg:px-12">
+          <div className="box grid grid-cols-1 md:grid-cols-2 gap-6 my-12 lg:px-12">
           <div className="left px-3 my-auto">
           <iframe  className=' h-[20em] lg:w-[36em] w-full ' src="https://www.youtube.com/embed/2ueDr5_LCOk" title="Graphic Designing Services in Uttarakhand | Logo Designer, Brouchure designing by DigiPhlox" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>                               
             </div>

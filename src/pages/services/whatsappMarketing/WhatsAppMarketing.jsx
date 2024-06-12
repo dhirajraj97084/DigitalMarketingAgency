@@ -182,7 +182,7 @@ function WhatsAppMarketing() {
          </div>
          <div className="container mx-auto">
          <div className="video">
-          <div className="box grid grid-cols-1 lg:grid-cols-2 gap-6 my-12 lg:px-12">
+          <div className="box grid grid-cols-1 md:grid-cols-2 gap-6 my-12 lg:px-12">
           <div className="left px-3 my-auto">
           <iframe className=' h-[20em] lg:w-[36em] w-full ' src="https://www.youtube.com/embed/3Uav7rCQ4Zg" title="WhatsApp Marketing Service in Haldwani, Uttarakhand - DigiPhlox" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>                                  
             </div>
