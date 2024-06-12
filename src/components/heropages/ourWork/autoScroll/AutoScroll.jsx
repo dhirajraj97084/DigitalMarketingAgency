@@ -28,12 +28,12 @@ export default function AutoScroll() {
     const settings = {
         dots: true,
         infinite: true,
-        slidesToShow: 3,
+        slidesToShow: 2,
         slidesToScroll: 1,
         autoplay: true,
-        speed: 2000,
-        autoplaySpeed: 2000,
-        cssEase: "linear"
+        speed: 3000,
+        autoplaySpeed: 3000,
+        // cssEase:"linear"
       };
   return (
     <div>
@@ -41,7 +41,7 @@ export default function AutoScroll() {
     <Slider {...settings}>
     {scrollList.map((items,indexs)=>{
                     return( <div key={indexs} className="img ">
-                        <img className=" p-2 cursor-pointer " src={items.image} alt="" />
+                        <img className=" p-2 cursor-pointern px-6 " src={items.image} alt="" />
                     </div> )
                 })}
     </Slider>
