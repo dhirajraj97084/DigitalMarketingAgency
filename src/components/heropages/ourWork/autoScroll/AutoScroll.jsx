@@ -41,7 +41,7 @@ export default function AutoScroll() {
     <Slider {...settings}>
     {scrollList.map((items,indexs)=>{
                     return( <div key={indexs} className="img ">
-                        <img className=" w-[15em] p-2 cursor-pointer " src={items.image} alt="" />
+                        <img className=" p-2 cursor-pointer " src={items.image} alt="" />
                     </div> )
                 })}
     </Slider>
