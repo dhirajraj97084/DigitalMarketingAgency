@@ -49,7 +49,7 @@ function ContactForm() {
                   placeholder="First Name:"
                   value={formData.firstName}
                   onChange={handleChange}
-                  className="w-full px-3 py-2 border rounded-md outline-none border-deep-orange-400"
+                  className="w-full px-3 py-2 border rounded-md outline-none border-deep-purple-500 "
                   required
                 />
               </div>
@@ -65,7 +65,7 @@ function ContactForm() {
                   placeholder="Last Name:"
                   value={formData.lastName}
                   onChange={handleChange}
-                  className="w-full px-3 py-2 outline-none border-deep-orange-400 border rounded-md"
+                  className="w-full px-3 py-2 outline-none border-deep-purple-500  border rounded-md"
                   required
                 />
               </div>
@@ -81,7 +81,7 @@ function ContactForm() {
                   placeholder="Phone Number:"
                   value={formData.phoneNumber}
                   onChange={handleChange}
-                  className="w-full px-3 py-2 border outline-none border-deep-orange-400 rounded-md"
+                  className="w-full px-3 py-2 border outline-none border-deep-purple-500  rounded-md"
                   required
                 />
               </div>
@@ -97,7 +97,7 @@ function ContactForm() {
                   name="email"
                   value={formData.email}
                   onChange={handleChange}
-                  className="w-full outline-none border-deep-orange-400 px-3 py-2 border rounded-md"
+                  className="w-full outline-none border-deep-purple-500  px-3 py-2 border rounded-md"
                   required
                 />
               </div>
@@ -111,7 +111,7 @@ function ContactForm() {
                   name="reason"
                   value={formData.reason}
                   onChange={handleChange}
-                  className="w-full px-3 py-2 border outline-none border-deep-orange-400 rounded-md"
+                  className="w-full px-3 py-2 border outline-none border-deep-purple-500  rounded-md"
                   required
                 >
                   <option value="">Select Service</option>
@@ -133,14 +133,14 @@ function ContactForm() {
                   name="message"
                   value={formData.message}
                   onChange={handleChange}
-                  className="w-full outline-none border-deep-orange-400 px-3 py-2 border rounded-md"
+                  className="w-full outline-none border-deep-purple-500  px-3 py-2 border rounded-md"
                   rows="4"
                   required
                 ></textarea>
               </div>
               <button
                 type="submit"
-                className="w-full bg-deep-orange-400 text-white font-semibold px-4 py-2 rounded-md hover:bg-deep-orange-600"
+                className="w-full bg-deep-purple-500  text-white font-semibold px-4 py-2 rounded-md "
               >
                 GET NOW
               </button>
