@@ -4,7 +4,7 @@ const peopleList = [
   {
     img: "",
     name: "Srishti Nautiyal",
-    work: "Sales Executive",
+    work: "Consultant",
   },
   {
     img: "",
@@ -14,7 +14,7 @@ const peopleList = [
   {
     img: "",
     name: "Shiva",
-    work: "junior Senior",
+    work: " Editor",
   },
   {
     img: "",
