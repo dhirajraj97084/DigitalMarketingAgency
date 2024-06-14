@@ -206,7 +206,7 @@ function NavList() {
       </Typography>
       <div className="">
       <Link to={'/career'}>
-        <button className="px-6 py-2 bg-deep-orange-500 hidden lg:block text-white hover:bg-brown-800">CALL NOW</button>
+        <button className="px-6 py-2 bg-purple-500 rounded-sm hidden lg:block text-white hover:bg-brown-800">CALL NOW</button>
       </Link>
      </div>
     </List>
@@ -240,7 +240,7 @@ export default function NavbarComponent() {
   return (
     <Navbar className={` rounded-none max-w-full container py-2 top-0 sticky z-20 border-none 
     ${color ? "navbarComp" : "navbarScrolled"}`}>
-      <div className="flex items-center lg:justify-center justify-around gap-24 text-blue-gray-900">
+      <div className="flex items-center justify-around gap-24 text-blue-gray-900">
         <Typography
           as="a"
           href="#"
@@ -249,7 +249,7 @@ export default function NavbarComponent() {
         >
           <Link to={'/'}>
             <div className="logo flex items-center">
-             <img className="w-36 lg:w-40 border border-deep-orange-500/45 hover:border-none" src="https://digiphlox.com/wp-content/uploads/2022/02/Vector-Smart-Object.png" alt="" />
+             <img className="h-14 " src="img/logo.jpg" alt="" />
             </div>
           </Link>
         </Typography>

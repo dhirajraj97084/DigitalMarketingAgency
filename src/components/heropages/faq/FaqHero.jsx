@@ -9,7 +9,7 @@ function FaqHero() {
         <Faq/>
         </div>
         <div className="right">
-          <img src="img/faq_11zon.jpg" alt="" />
+          <img className='h-full ' src="img/faq_11zon.jpg" alt="" />
         </div>
       </div>
     </div>

@@ -7,7 +7,7 @@ function PayPerClick() {
   return (
     <Layout>
       <div className="main">
-        <img className='w-full h-[25em]' src="https://digiphlox.com/wp-content/uploads/2023/12/1.webp" alt="" />
+        <img className='w-full h-[25em]' src="img/10_11zon.jpg" alt="" />
         <div className="container mx-auto px-3 lg:my-8 my-3 gap-4 grid grid-cols-1 lg:grid-cols-2">
           <div className="left lg:mt-16 ">
             <h1 className='font-bold text-deep-orange-400 pb-2'>Online Advertising Services in Haldwani</h1>

@@ -17,6 +17,8 @@ import ContentWriting from './pages/services/contentWriting/ContentWriting'
 import InfluencerMarketing from './pages/services/influencerMarketing/InfluencerMarketing'
 import WhatsAppMarketing from './pages/services/whatsappMarketing/WhatsAppMarketing'
 import GraphicDesign from './pages/services/graphicDesign/GraphicDesign'
+import ServiceButtonPage from './components/heropages/secondHeroPage/serviceButtonPaage/ServiceButtonPage'
+import ContentMarketingPage from './pages/blogPage/blogContentMarketing/ContentMarketingPage'
 
 function App() {
   return (
@@ -25,7 +27,10 @@ function App() {
         <ScrollTop/>
         <Routes>
           <Route path='/' element={<Home/>} />
+          <Route path='/services' element={<ServiceButtonPage/>} />
           <Route path='/career' element={<CareerPage/>} />
+          <Route path='/content' element={<ContentMarketingPage/>} />
+          <Route path='/digitalmarketing' element={<ContentMarketingPage/>} />
           <Route path='/blog' element={<SubBlogPage/>} />
           <Route path='/contactus' element={<ContactUsPage/>} />
           <Route path='/about' element={<AboutPage/>} />

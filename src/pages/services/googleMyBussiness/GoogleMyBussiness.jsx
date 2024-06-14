@@ -7,7 +7,7 @@ function GoogleMyBussiness() {
   return (
     <Layout>
       <div className="main">
-        <img className='w-full h-[25em]' src="https://digiphlox.com/wp-content/uploads/2023/08/5-Benefits.webp" alt="" />
+        <img className='w-full h-[25em]' src="img/11_11zon.jpg" alt="" />
         <div className="box">
           <div className="item2 container mx-auto pb-8 grr grid grid-cols-1 lg:grid-cols-2 gap-10 py-14 px-4  ">
             <div className="right my-auto">

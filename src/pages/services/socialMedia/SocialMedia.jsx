@@ -13,11 +13,8 @@ import GoogleRating from '../../../components/heropages/googleRating/GoogleRatin
 function SocialMedia() {
   return (
     <Layout>
-      <div className="main flex justify-center items-center h-[30em] bg-no-repeat bg-cover bg-center bg-fixed bg-[url('https://digiphlox.com/wp-content/uploads/2023/10/Digital.webp')]">
-        <div className="text">
-          {/* <h1 className='lg:text-6xl px-2 md:text-4xl text-3xl font-serif text-center text-black '>Social Media</h1> */}
-
-        </div>
+      <div className="main">
+        <img className=' h-[26em] md:h-auto' src="img/social.jpg" alt="" />
       </div>
       <div className="container mx-auto lg:mt-12 mt-6 ">
         <h1 className='text-xl font-bold pb-6 text-deep-orange-300 text-balance text-center'>Searching For The Ultimate Social Media Marketing Company In Haldwani <span className=' text-black/65'> That Not Only Optimizes But Also Helps You Grow In The Competitive Market?</span> </h1>

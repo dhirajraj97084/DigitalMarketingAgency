@@ -17,7 +17,7 @@ function WhatsAppMarketing() {
   return (
     <Layout>
       <div className="main">
-        <img className='w-full h-[25em]' src="https://digiphlox.com/wp-content/uploads/2023/02/whatsapp-marketing-to-grow-your-business.webp" alt="" />
+        <img className='w-full h-[25em]' src="img/whatsapp.jpg" alt="" />
         {/* 2nd */}
         <div className="content ">
           <div className="grid grid-cols-1 md:grid-cols-2 md:gap-16 lg:gap-32 md:py-12 container mx-auto ">

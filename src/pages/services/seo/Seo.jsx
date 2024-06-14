@@ -7,7 +7,7 @@ function Seo() {
   return (
     <Layout>
       <div className="box">
-        <img className='w-full h-[25em]' src="https://digiphlox.com/wp-content/uploads/2023/07/Add-a-heading-_68_-768x404.webp" alt="" />
+        <img className='w-full h-[25em]' src="img/seo.jpg" alt="" />
         <div className="main">
           <div className="container mx-auto px-3 lg:pt-20">
             <h1 className='text-2xl lg:text-3xl font-black text-center py-3'>Best SEO Company In Haldwani: Premium Seo service provider</h1>

@@ -7,7 +7,7 @@ function ContentWriting() {
   return (
     <Layout>
       <div className="main">
-        <img className='w-full h-[25em]' src="https://digiphlox.com/wp-content/uploads/2023/03/Understanding-the-Importance-Of-Content-Marketing-1.webp" alt="" />
+        <img className='w-full h-[25em]' src="img/content.jpg" alt="" />
       </div>
       {/* second */}
       <div className="box bg-gray-100">
@@ -22,7 +22,7 @@ function ContentWriting() {
             </div>
           </div>
           <div className="left mx-auto">
-            <img className=' ' src="https://digiphlox.com/wp-content/uploads/elementor/thumbs/laptop-desk-notebook-computer-macbook-writing-764432-pxhere.com_-pkeqdk2urfqhrt5pdtyju9pytzuegdeiao8dqbnf9s.jpg" alt="" />
+            <img className=' h-full ' src="img/11_11zon.jpg" alt="" />
 
           </div>
         </div>

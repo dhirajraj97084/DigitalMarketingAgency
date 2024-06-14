@@ -8,7 +8,7 @@ function InfluencerMarketing() {
     <Layout>
       <div className="main">
         <div className="img">
-          <img className='w-full h-[25em]' src="https://digiphlox.com/wp-content/uploads/2023/03/The-Role-Of-Influencer-Marketing-In-Business-Growth-1.webp" alt="" />
+          <img className='w-full h-[25em]' src="img/influ.jpg" alt="" />
         </div>
         <div className="container mx-auto px-3 lg:my-8 my-3 gap-4 grid grid-cols-1 lg:grid-cols-2">
           <div className="left lg:mt-16 ">

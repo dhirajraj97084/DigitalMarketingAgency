@@ -8,7 +8,7 @@ function WebsiteDesign() {
   return (
     <Layout>
       <div className="box">
-        <img className='w-full h-[25em]' src="https://digiphlox.com/wp-content/uploads/2023/08/Add-a-heading-94.webp" alt="" />
+        <img className='md:h-auto h-[26em]' src="img/web.jpg" alt="" />
       </div>
       <div className="container mx-auto px-3">
         <h1 className='pt-3  text-xl  '>Website Design Company</h1>

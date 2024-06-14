@@ -10,7 +10,7 @@ function GraphicDesign() {
   return (
     <Layout>
       <div className="main">
-        <img className='w-full h-[25em]' src="https://digiphlox.com/wp-content/uploads/2024/02/Graphic-Designing-2.png" alt="" />
+        <img className='w-full h-[25em]' src="img/15_11zon.jpg" alt="" />
 
         <div className="graphicdesign bg-gray-200 grid grid-cols-1 md:grid-cols-2 py-12 px-4 md:px-6 lg:px-14">
           <div className="left my-auto">
