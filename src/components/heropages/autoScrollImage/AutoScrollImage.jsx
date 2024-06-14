@@ -1,9 +1,9 @@
-import { Carousel } from "@material-tailwind/react"; 
+import { Carousel } from "@material-tailwind/react";
 
 export default function AutoScrollImage() {
   return (
-    <div>
-      <Carousel 
+    <div className="">
+      <Carousel
         loop={true}
         autoplay={true}
         navigation={false}
@@ -11,28 +11,16 @@ export default function AutoScrollImage() {
         autoplayDelay={5000}
         className=" "
       >
-        <div className="relative h-full">
-          <img
-            src="img/1_11zon.jpg"
-            alt="image 1"
-            className=" h-[20em] sm:h-[32em] md:h-auto "
-          />
+        <div className="relative h-full ">
+          <img src="img/1_11zon.jpg" alt="image 1" className=" " />
         </div>
-        
+
         <div className="relative h-full">
-          <img
-            src="img/2_11zon.jpg"
-            alt="image 2"
-            className=" h-[20em] sm:h-[32em] md:h-auto "
-          />
+          <img src="img/2_11zon.jpg" alt="image 2" className=" " />
         </div>
-        
+
         <div className="relative h-full">
-          <img
-            src="img/3_11zon.jpg"
-            alt="image 3"
-            className=" h-[20em] sm:h-[32em] md:h-auto "
-          />
+          <img src="img/3_11zon.jpg" alt="image 3" className="  " />
         </div>
       </Carousel>
     </div>

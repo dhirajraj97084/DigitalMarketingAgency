@@ -1,50 +1,61 @@
-import React from 'react'
+import React from "react";
 
-const cardlist=[
-    {
-        desc:"If you're looking for the best digital marketing agency in Haldwani, look no further than Digiphlox. Their expertise in website developement and social media marketing is exceptional. With their strategic approach and attention to detail, they have helped my business achieve remarkable growth and establish a strong online presence. I am grateful for their exceptional services.",
-        img:"https://digiphlox.com/wp-content/uploads/elementor/thumbs/pexels-italo-melo-2379004-Copy-ppfktrv4zd98xuqxhaqdc2teinh4gfra0ok0755hlk.jpg",
-        name:"Surendran Chandra"
-    },
-    {
-        desc:"I am extremely satisfied with Digiphlox's digital marketing services. Their expertise in SEO and website design has helped my Haldwani business gain significant online visibility. I highly recommend them as the most effective digital marketing agency in the area.",
-        img:"https://digiphlox.com/wp-content/uploads/elementor/thumbs/pexels-rodnae-productions-7580821-przcnr1098dp98p88e58jzscn3bs3qa450cq98mmvs.jpg",
-        name:"Nikita Dhingr"
-    },
-    {
-        desc:"Digiphlox has been crucial to the success of our business in Haldwani. Their digital marketing services, particularly their SEO strategies and website design skills, have helped us stay ahead of the competition. There is no better company in the region than them. Highly recommended.",
-        img:"https://digiphlox.com/wp-content/uploads/elementor/thumbs/pexels-abhishek-gaurav-689372-pns1i2obobg0lhilxld2s25dahtb9f3jjmkddelwew.jpg",
-        name:"Harvindar Singh"
-    },
-]
+const cardlist = [
+  {
+    desc: "Digiswarm is undeniably the best digital marketing agency in Dehradun. Their mastery in SEO and social media marketing has elevated our online presence to new heights. For anyone seeking top-notch digital marketing solutions, Digiswarm is the ultimate choice!",
+    img: "https://res-console.cloudinary.com/dpzhezt6x/thumbnails/v1/image/upload/v1718372245/MzVfd3g4Zzdr/drilldown",
+    name: "KundanMala Jewels",
+  },
+  {
+    desc: "Digiswarm, the leading Dehradun digital marketing agency, has delivered exceptional results for our business. Their comprehensive approach to digital marketing, including website development and content creation, has significantly boosted our online visibility. Highly recommend their services for anyone looking to excel in the digital realm",
+    img: "https://res-console.cloudinary.com/dpzhezt6x/thumbnails/v1/image/upload/v1718372165/TG9nb18xX3A5cnkwbw==/drilldown",
+    name: "Smart Agri Incorporation",
+  },
+  {
+    desc: "Digiswarm's expertise in digital marketing is unparalleled. As the premier Dehradun digital marketing agency, they have helped us achieve remarkable success with their strategic approach and attention to detail. From SEO to content marketing, their services have truly exceeded our expectations. If you're looking to dominate the digital landscape, look no further than Digiswarm",
+    img: "https://res-console.cloudinary.com/dpzhezt6x/thumbnails/v1/image/upload/v1718372430/RHIuX0FydmluZF9DaGF1ZGhhcnlfMV9tczltZmk=/drilldown",
+    name: "Ayurmax",
+  },
+];
 
 function ClientHeroPage() {
   return (
     <div>
-      <div className="box h-fit bg-deep-orange-300 rounded-t-[16rem]  ">
-         <div className="heading pt-12">
-            <h1 className='text-center text-white font-semibold'>OUR CLIENTS GET RESULTS</h1>
-            <h1 className='text-center text-white font-semibold text-2xl lg:text-4xl'>What Our Clients Are Saying</h1>
-         </div>
-         <div className="cart">
-            <div className="box grid grid-cols-1 md:grid-cols-3 ">
-                {cardlist.map((item,index)=>(
-                    <div key={index} className="cart bg-white rounded-md  m-4 px-8 lg:my-12 py-12">
-                      <h1 className='font-bold'>{item.desc}</h1>
-                      <div className="box flex gap-7 pt-6">
-                        <img className='w-16 h-16 rounded-full' src={item.img} alt="" />
-                        <span className='flex flex-col '>
-                        <h1 className='text-xl font-bold'>{item.name}</h1>
-                        <h1 className='font-thin'>client</h1>
-                        </span>
-                      </div>
-                    </div>
-                ))}
-            </div>
-         </div>
+      <div className="box h-fit bg-purple-500 rounded-t-[16rem]  ">
+        <div className="heading pt-12">
+          <h1 className="text-center text-white font-semibold">
+            OUR CLIENTS GET RESULTS
+          </h1>
+          <h1 className="text-center text-white font-semibold text-2xl lg:text-4xl">
+            What Our Clients Are Saying
+          </h1>
+        </div>
+        <div className="cart">
+          <div className="box grid grid-cols-1 md:grid-cols-3 ">
+            {cardlist.map((item, index) => (
+              <div
+                key={index}
+                className="cart bg-white rounded-md  m-4 px-8 lg:my-12 py-12"
+              >
+                <h1 className="font-bold">{item.desc}</h1>
+                <div className="box flex gap-7 pt-6">
+                  <img
+                    className="w-16 h-16 rounded-full"
+                    src={item.img}
+                    alt=""
+                  />
+                  <span className="flex flex-col ">
+                    <h1 className="text-xl font-bold">{item.name}</h1>
+                    <h1 className="font-thin">client</h1>
+                  </span>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
       </div>
     </div>
-  )
+  );
 }
 
-export default ClientHeroPage
+export default ClientHeroPage;
